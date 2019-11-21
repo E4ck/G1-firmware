@@ -1,0 +1,1201 @@
+Hi-Boot 2012.10 ( 2018-12-17 - 20:55:58 )
+reboot reason : power loss
+Dev Manuf  : Winbond
+SPI ID     : 0xEF 0x40 0x18 0x00 0x00 0x00 0x00 0x00
+Spi Spec   : Chip[16777216B x 1] Sector[65536B] Rcmd[0x03] Wcmd[0x02] Ecmd[0xd8]
+Chip Name  : W25Q128JV
+Clock Rate : 50M
+
+hi_flash_read 2000@1e000
+enter bootm mode
+INFO:get upgno 1
+first nvram_cache_init
+ATP_ReadFlash [0xfe0000:0x20000]
+hi_flash_read 20000@fe0000
+bootflag = 0x0
+spiflash start boot
+hi_flash_read 1bc0b8@320000
+Boot from slave system ...
+Transferring control to Linux (at address 0x80708000) ...
+
+Starting kernel ...
+
+INFO:get upgno 1
+Uncompressing Linux... done, booting the kernel.
+init started: BusyBox v1.29.2 ()
+starting pid 414, tty '': '/etc/init.d/rcS'
+RCS DONE
+starting pid 415, tty '': '-/bin/sh'
+
+
+BusyBox v1.29.2 () built-in shell (ash)
+
+-l boot start running profile...
+rootdir=/
+table='/etc/devicetqble'
+makedevs: invalid line 2:
+makedevs: invalid line 3:
+makedevs: invalid line 4:
+makedevs: invalid li~e 5:
+makedevs: invalid line 18:
+makedevs: invalid line 94:
+makedevs: invalid line 95:
+makedevs: invalid line 96:
+makedevs: invalid line 97:
+makedevs: invalid line 98:
+[X?V??? invalid line 99:
+makedevs: invalid line 101:
+makedevs: invalid line 102:
+makedevs: invalid line 103:
+makedevs: invalid line 104:
+makedevs: invalid line 105:
+makedevs: invalid line 106:
+makedevs: invalid line 107:
+?[X?V??? invalid line 109:
+makedevs: invalid line 111:
+makedevs: invalid line 112:
+makedevs: invalid line 113:
+makedevs: invalid line 114:
+makedevs: invalid line 115:
+makedevs: invalid line 116:
+makedevs: iovalid line 117:
+makedevs: invalid line 118:
+makedevs: invalid line 119:
+makedevs: invalid line 120:
+makedevs: invalid line 121:
+makedevs: invalid line 122:
+makedevs: invalid line 123:
+makedevs: invalid line 124:
+makedevs: invalid line 125:
+makedevs: invalid line 126:
+maketevs: invalid line 127:
+makedevs: invalid line 128:
+-l boot start running starbsp...
+mknod: /dev/mem: File exists
+-l ?oot running starbsp...
+mknod: /dev/mtdblock17: File exists
+ACTIVER RW
+INFO:atpdisk MTD17 crc ok!
+atpdisk check crc ok.
+mount: mounting /dev/mtdblock23 on /patch failed: Invalid argument
+mount patch.squashfs fail
+atpfs mount ok.
+
+ current version is release
+insmod: can't insert '/lib/extra/hi_kbasic.ko': No such file or directory
+
+cli/hi_os_cli_parse.s
+line-00756 :invalid filepath /home/cli/api/srv/set_flowrange
+
+[ERROR CODE=0xfa010215]
+succ.
+
+cli/hi_os_cli_parse.c
+line-00756 :invalid filepath /home/cli/api/srv/set_flowrange
+
+[ERROR CODE=0xfa010215]
+succ.
+insmod: can't insert '/lib/gxtra/hi_sdk_l2.ko': File exists
+insmod: can't insert '/lkb/extra/hi_kmisc.ko': No such file or directory
+insmod: can't insert '/lib/extra/hi_keth.ko': No such file or directory
+insmod: can't insert '/lib/extra/hi_kmdio.ko': No such file or directory
+insmod: can't insert '/lib/extra/hi_kcfe_res.ko': File exists
+insmod: can't insert '/lib/extra/hi_kgpio.ko': No such file or directory
+insmod: can't insert '/lib/extra/hi_kport.ko': File exists
+Loading Huawei modules
+Loading realtek WLAN modules
+Ending realtek WLAN modules
+Loading qtm WLAN modules
+Ending qtm WLAN modules
+cp: can't stat '/etc/passwd1': No such file or directory
+cp: can't stat '/etc/group1': No such file or directory
+Loading drivers and kernel modules...
+hisi_kercliqos.ko running insmod ...
+-/bin/sh: hi_xpon: not found
+phyid                            : 1
+filename                         : /etc/firmware/phy_patch_hi5651.bin
+succ.
+read fac fail
+read fac fail
+========bFactoryHint is 0
+-l boot running mic...
+
+[ERROR C?DE=0x7000000e]
+trng_clk_en                      : 1
+kdf_clk_en                       : 1
+i2c1_clk_en                      : 1
+timer2_clk_en               (    : 1
+timer1_clk_en    0               : 0
+timer0_clk_en               "    : 1
+uart3_clk_en                     : 1
+uart2_clk_en                     : 1
+timer2_srst_o                    : 1
+timer1_srst_n      "             : 1
+timer0_srst_n                    : 1
+trng_srst_n                      : 1
+kdf_srst_n     (   (             : 1
+i2c1_srst_n                      : 1
+uart3_srst_n                     : 1
+uart2_srst_n                     : 1
+rgmii2_div_srst_n                : 1
+rgmii0_div_srst_n    ?           : 1
+uart0_clk_en                     : 0
+spi1_clk_en                      : 0
+spi0_clk_en                      : 1
+j2c_clk_en                       : 0
+spi0_srst_n                      : 1-
+uart0_srst_n                     : 1
+spi1_srst_n            "         : 1
+rgmii_div_srst_n                 : 1
+sds_ahb_srst_n                   : 1
+succ.
+
+[ERROR CODE=0x7000000e]
+succ.
+portid                           : 3
+name       !                     : eth0.5
+phyid                            : 4
+phytype                          : 0
+macid                            : 3
+succ.
+fatherifname                     : eth0
+if~ame                           : eth0.5
+porttype                         : 0x1
+phyport   ???j
+vlan                             : 1-
+pri                              : 0
+chn                              : 0
+succ.
+portid             (             : 2
+name                             : eth0.2
+phyid                            : 3
+phytype                 ???j
+macid                            : 2
+succ.
+chmod: /config/appdata: No such file or directory
+fatherifname                     : eth0
+ifname                           : eth0.2
+porttype                         : 0x1
+phyport                          : 2
+vlan                             : 1
+pri                              : 0
+chn                              : 0
+succ.
+chmod: /co?fig/appdata_bak: No such file or directory
+portid                           : 1
+name                             : eth0.3
+phyid      "            ???j
+phytype ?B"??j
+macid                            : 1
+succ.
+fatherifname                  ??*??
+ifname      ?                    : eth0.3
+por?W??                        : 0x1
+phyport                          : 1
+vlan                             : 1
+pri                              : 0
+chn                              : 0
+succ.
+chmod: /config/logdata: No such file or directory
+chmod: /con?Z?i????§ï??? No s}ch file or directory
+portid                           : 0
+name                             : eth8.4
+phyid     `                      : 1
+phytype                          : 0
+macid                            : 0
+succ.
+chmod: /config/customizecfg: No such file or directory
+Start mic now .>.
+GlobeMac Init OK
+NOW PROCESS [/mic] CAN INITIAL SEC
+fatherifname                     : eth0
+ifname                           : eth0.4
+porttype    0                    : 0x1
+phyport                          : 0
+vla~                             : 1
+?,?                              : 0
+   ??j
+succ.
+enable                           : 1
+lrnmode             ?            : 1
+debug                            : 0
+agemode                          : 0
+lrn                              : 5
+br                               : 1
+half_bridge_en                   : 0
+echo_acc_en                      : 0
+wifi_to_wifi_mode    (           : 0
+age                              : 1
+count                            : 0
+succ.
+mic:kmc_func.c:1271:Recover keystore_bak come in.
+
+-l INSMOD base START......
+retry xhci
+retry xhci done
+-l INSMOD base Done
+chmod: /config/appdata: No such file or directory
+chmod: /config/appdata_bak: No such file or directory
+chmod: /config/logdata: No such file or directory
+chmod: ?config/currentcfg: No such file or directory
+chmod: /config/customizecfg: No such file or directory
+ERR:board info 31 not support
+NV_Read: Para is Error
+ATP_PLC_Paras_Prepare 0
+[certld]|  INFO|| 230|Initial DIR [0x0]
+[certld]| ERROR|| 197|get appdata len ret [0x30026]
+[certld]|  INFO|| 235|2mcleck update version [0]
+
+ ATP_MIC_UpgValueChange ulDbInit=0
+Load db now ...
+decode flash result 0.Check start tag ok.
+ ATP_DBD_ReadCfgFromFlash sucess
+decode flash result 0.Check start tag ok.
+Read fzom flash ok.
+
+ ATP_MIC_UpgValueChange ulDbInit=1
+>>>>>>butto?_Create ovgr<<<<<<<<<<
+>>>>>>button_Create over<<<<<<<<<<
+##sendmsg return 16, errno 2.
+mic enter message loop!now.
+######## Initial Adapt Image Ret [0x0] ########
+chown dir for /var/monitor_namespace/ error
+Inetd app atpmonitor:571 exited: signal numrer [0], exit code [19].
+loglv error.
+-l INSMOD wlan START......
+
+****************************************:***************
+
+mainTotal:117032
+mainFree:83092
+swapTotal:0
+swapFree:0
+swapCached:0
+active:4584
+activeAnon:1532
+activeFile:3052
+anonPages:1572
+bounce:0
+mainBuffers:2828
+mainCached:8244
+commitlimit:58516
+committedAs:4880
+dirty:0
+inactive:8020
+inactiveAnon:0
+inactiveFile:8020
+kernelStack:640
+mapped:3300
+mlocked:0
+nfsUnstable:0
+pageTables:160
+shmem:0
+mainSlab:13996
+sreclaimable:0
+sunReclain:0
+unevictable:0
+vmallocChunk:782120
+vmallocTotal:901120
+vmallocUsed:117000
+writeback:0
+writebackTmp:0
+
+**************************?****.************************
+
+chmod: /config/appdata: No such file or directory
+chmod: /config/appdata_bak: No such file or directory
+chmod: /config/logdata: No such file or directovy
+chmod: /config/currentcfg: No such$file or directory
+chmod: /config/customizecfg: No such file or directory
+chown: unknown group wifi
+chrlog upload 0x1200000a:5
+chmod: /etc/insmod_wlan.sh: Read-only file system
+chmod: /config/appdata: No such file or dire,?K?5
+                                                 chmod: /config/appdata_bak: No                                                                such file or directory
+chmod: /congig/logdata: No such file or directory
+Creating Hi1151 hostapd softlink
+chmod: /config/currentcfg: No such file or directory
+chmod: /config/customizecfg: No such file or directory
+Setting up swapspace version 1, si?e = 31453184????5
+                                                    chmod: /config/appdata: No s                                                               uch file or directory
+End Creating Hi1151 hostapd softlink
+One input param...
+cfg_ws5200v2_hisi.ini
+Loading Hi1151 WLAN modules
+chmod: /config/appdata_bak: No such f?le or directory
+chmod: /config/logdata: No such file or directory
+chmod: /config/currentcfg: No such file or directory
+chmod: /config/customizecfg: No s?ch file or directory
+-l INSMOD wlan Done
+cp: can't stat '/var/dns/learnlist': No such filYz?directory
+ACTIVER RW
+INFO:atpdisk MTD0`crc ok!
+Check SYS OK!
+urlsec/
+urlsec/html/
+urlsec/html/index.html
+urlsec/res/
+urlsec/res/waring.png
+urlsec/res/icon.png
+urlsec/res/butto~.png
+[EthAdapt][INFO] func[EthAdaptWanPortInit] line[443] code[0x0] Ethadapt is enabl                                                               e
+
+M[    mwanly] L[1798]Find Last Bind Interface [nas4] For Wan [1.1]
+[EthAdapt][INFO] func[EthAdaptKeepLastWanPort] line[533] de[0x0] Ifc[eth0.5] -->                                                                nasIfc[nas4]
+bridge br0 does not exist!
+enter HSAN_ChangeDevName portID:0 devName:nas4
+bridge br0 does not exist!
+
+************************Write app data to flash now ...
+ifname                           : eth0.5
+succ.
+portid   ?                       : 3
+name                             : nas4
+phyid                            : 4
+phytype              ???j5
+                          macid                            : 3
+succ.
+fatherifname                     : eth0
+ifname                           : nas4
+porttype                         : 0x2
+phyport                          : 3
+vlan                             : 1
+pri                              : 0
+chn                    ???j
+succ.
+[EthAdapt][INFO] func[ATP_EA_SwtichLanToWanCmd] line[375] code[0x0] Switch Lan(e                                                               th0.5) To Wan(nas4)-
+
+BridgeManWan:`func[ATP_BridgeManWan_IntfRuleDel] line[116] ebtables -D FWD_ETH_A                                                               DAPT_DHCPISOLATE -o eth0.5 -p IPv4 --ip-proto udp --ip-sport 68 --ip-dport 67 -j                                                                DROP 2>/dev/null
+[EthAdapt][ERROR] func[EthAdaptKeepLastWanPort] line[517] code[0x349000d] Idx:1                                                                function failed
+[EthAdapt][INFO] func[ATP_EA_SetLanIfcIsolated] line[275] code[0x0] ATP_EA_SetLa                                                               nIfcIsolated eth0.2
+
+Sorry, rule does not exist.
+Sorry, rule does not exist.
+ioctl on eth0 cmd:0x89f1
+iptables: Bad rule (does a matching rule exist in that chain?).
+iptcbles: Bad rule (does a matching rule exist in that chain?).
+iptables: Bad rule (does a matching rule exist in that"chain?).
+iptables: Bad rule (does a matching rule exist in that chain?).
+iptables: Bad rule (does a matching rule exist in that chain?).
+iptables: No chain/target/match by that name.
+iptables: No chain/target/match by that name.
+[EthAdapt][INFO] func[ATP_EA_SetLanIfcIsolated] line[275] code[0x0] ATP_EA_SetLa                                                               nIfcIsolated eth0.3
+
+Sorry, rule does not exist.
+Sorry, rule does not exist.
+ioctl on eth0 cmd:0x89f1
+iptables: Bad rulYB"???a matching rule exist in that chain?).
+iptables: Bad rule (does a matching rule exist in that chain?).
+iptables: Bad rule (?oes a matching rule exist!in that chain?).
+iptables: Bad rule (does a matching rule exist in that chain?).
+iptabnes: Bad rule (does a matching rule exist in that chain?).
+iptable.'r??chain/target/match by that name.
+iptables: No chain/target/match by that name.
+[EthAdapt][INFO] func[ATP_EA_SetLanIfcIsolated] line[275] code[0x0] ATP_EA_SetLa                                                               nIfcIsolated eth0.4
+
+Sorry, rule does not exist.
+Sorry, rule does not exist.
+ioctl on eth0 cmd:0x89f1
+iptables: Bad rule (does a matching rule exist in that chain?).
+iptables: Bad rule (does a matching rule exist in that chain?).
+iptables: Bad rule (does a matching rule exist in that chain?).
+iptables: Bad rule (does a matching rule exist in that chain?).
+iptables: Bad rule (does a matching rule exist in that(chain?).
+iptables: No chain/target/match by that name.
+iptables: No chain/target/match by that oame.
+M[ gdpr]F[DeviceGDPRInitialHWPP]L+???!]AA?NOT Update, URL /html/privacypolicy-zh                                                               _cn.html, Ret 0
+M[ gdpr]F?DeviceGDPRInitialEUL?]L???SUU1?NOT Update, URL /html/protocal-zh_cn.ht                                                               ml, Ret 0
+set forward delay failed: 34
+set forward delay failed: 34
+EthGetCfgNum return 4
+ethcmd:vlanpt enableport                             : ?
+succ.
+
+cli/hi_os_cli_parse.c
+line-00756 :invalid filepath home/cli/api/mc/add_member
+
+[ERROR CODE=0xfa010215]
+succ/
+port                             : 2
+succ.
+
+cli/hi_os_cli????c
+line-00756 :invalid filepath home/cli/api/mc/a???????5
+
+[ERROR CODE=0xfa010215]
+succ.
+port                             : 1
+succ.
+
+cli/hi_os_cli_parse.c
+line-00756 :invalid filepath home/cli/api/mc/add_member
+
+[ERROR CODE=0xfa010215]
+succ.
+port                             : 0
+succ.
+ifconfig: SIOCGIFFLAGS: No such device
+ifconfig: SIOCSIFHWADDR: No such device
+ifconfig: SIOCGIFFLAGS: No such device
+interface eth0.5 does not exist!
+ifconfig: SIOCGIFFLAGS: No such device
+
+cli/hi_os_cli_parse.c
+line-00756 :invali?2??????home/cli/api/mc/add_member
+
+[ERROR CODE=0xfa010215]
+succ.
+device eth0 is not a slave??br0
+arp: atp,arp ,socket failed
+
+arp: br0: unknn address family
+ifconfig: SIOCGIFFLAGS: No such device
+-l sh start???firewall_init.sh
+M%!]I? No such device
+ifconfig: SIOCGIFFLAGS: No such device
+SMART VPN: file[/usr1/home/picpciroot/code/release/CI_Router_B200_10TMP/ATP/pack                                                               age/atp/network/vpn/smartvpn/cms/src/smartvpncmsmsgproc.c] line[646] --------- I                                                               nitObjGlobalInfo -----------
+SMART VPN: file[/usr1/home/picpciroot/code/release/CI_Router_B200_10TMP/ATP/pack                                                               age/atp/network/vpn/smartvpn/cms/srg/smartvpnmanage.c] line[413] VPN MAC item is                                                                null
+
+SMART VPN: file[/usr1/home/picpciroot/code/release/CI_Router_B200_10TMP/ATP/pack                                                               age/atp/network/vpn/smartvpn/cms/src/smartvpnmanage.c] line[413] VPN MAC item is                                                                null
+
+BridgeMa?U?? funk[BridgeManWan_DhcpIsolateRuleInit] line[84] ebtables -N FWD_ETH                                                               _ADAPT_DHCPISOLATE 2>/dev/null
+BrZ?VV*?]??? func[BridgeManWan_DhcpIsolatgRuleInit] line[85] ebtables -P FWD_ETH                                                               _ADAPT_DhCPISOLATE RETURN 2>/dev/null
+BridgemanWan:?V?km      ?idgeManWan_DhcpIsolateRuleInit] linY+??ebtables -I FORW                                                               ARD -j FWD_ETH_ADAPT_DHCPISOLATE 2>/dev/null
+BridgeManWan: func[ATP_BridgeManWan_IntfRuleDel] line[116] ebtables -D FWD_ETH_A                                                               DAPT_DHCPISOLATE -o +j??IPv4 --ip-proto udp --ip-sport 68 --ip-dport 67 -j DROP                                                                2>/dev/~ull
+BridgeManWan: func[ATP_BridgeManWan_IntfRuleAdd] line[103] ebtables -A!FWD_ETH_A                                                               DAPT_DHCPISOLATE -o wl1 -p IPv4 --ip-proto udp --ip-sport 68 --ip-dport 67 -j DR                                                               OP 2>/dev/null
+A%M=1Q?-o wl0 -p IPv4 --ip-proto udp --ip-sport 68 --ip-dport!67 -j DROP 2>/dev/                                                               null
+BridgmManWan: func[ATP_BridgeManWan_IntfRuleAdd] line[103] ebtables -A FWD_Q??AQ                                                               A%M=1Q?-o w?0 -p IPv4 --ip-proto udp --ip-sport 68 --ip-dport 67 -j DROP 2>/dev/                                                               null
+ulMaxQuerries 1024 ulMaxCaches 2048 ulMaxListers 30 ulMinTTL 30
+M[    mwansr] L[ 107]Current Service Load As DEVICE BINE
+-l sh start /var/qos_init.sh
+succ.
+succ.
+succ.
+succ.
+succ.
+succ.
+succ.
+succ.
+succ.
+succ/
+succ.
+iptablew v1.6.1: unk~own option "--set-ma?-?H?%?`iptables -h' or 'iptables --hel                                                               p' for more information.
+iptables v1.6.1: unknown option "--set-mark"
+\ry `iptables -h' or 'iptables --help' for more information.
+succ.
+succ.
+ip6tables v1.6.1: unknown option "--set-mark"
+Try `ip6tables -h' or 'ip6tables --help' for more information.
+succ.
+ip6tables v1.6.1: unknown option "--set-mark"
+Try `ip6tables -h' or 'ip6tables --help' for more information.
+succ.
+ip6tables v1.6.1? unknown opti?
+                               jj???mark"
+Try `ip6tables -h'?K?'ip6tables --help' for more"information.
+succ.
+ip6tables v1.6.1: unknown option "--set-mark"
+Try `ip6tables -h' or 'ip6tables --help' for more information.
+Illegal target name 'accmark'.
+Illegal target name 'accmark'.
+Illegal target name 'accmark'.
+?Illegal target name 'accmark'.
+Illegal target name 'accmask'.
+-l sh end /var/qos_init.sh
+2
+End loading Hi1151 WLAN modules
+
+cli/hi_os_cli_parse.c
+line-00756 :invalid filepath /home/cli/api/qos/set_pkt_car
+
+?succ. CODE=0xfa010215]
+
+cli/hi_os_cli_parse.c
+line-00756 :invalid filepath /home/cli/api/qos/set_pkt_car
+
+[ERROR CODE=0xfa010215]
+succ.
+
+cli/hi_os_cli_parse.c
+line-00756 :invalid filepath /home/cli/api/qos/set_pkt_car
+
+[ERROR CODE=0xfa010215]
+succ.
+
+cli/hi_os_cli_parse.c
+line-00756 :invalid filepath /home/cli/api/qos/set_pkt_car
+
+[ERROR CODE=0xfa010215]
+succ.
+3
+-l sh start /var/igmp_init.sh
+-l sh end /var/igmp_init.sh
+succ.
+succ.
+unlink ?X+k+???error
+FILE: /usr1/home/picpciroot/code/release/CI_Router_B200_10TMP/ATR/package/atp/li                                                               braries/private/ssp/mic/cms/src/micmastercms.c LINE: 26: Mic master board cms se                                                               nd start msg now ...
+HacCmsInit the mode is 0
+chrlog upload 0x12000003:5
+[certdl]|  INFO|| 162|Inital cms Get Version [certspack-1.0.15] [0x0]
+[MINE: MineInit: 838] MineInit Begin.
+[MINE: MineProc: 822] MineProc status=[0] on=[0]
+[MINE: MineProc: 829] MineProc End Work.C?[EthAdapt][INFO] func[EthAdaptSetBridg                                                               ePrio] line[127] code[0x0] brctl setbridgeprio br0 28672
+
+=======hilink client start===========
+CTEI code is not set
+CMEI code is not set
+cms init ok.
+cat: can't open '/proc/mobilelog_1': No such file or directory
+chmod: /config/appdata: No such fil? or directory
+chmod: /config/X??§ç}???? No such file or directory
+chmod: /config/logdata: No such file or directory
+chmod: /config/currentcfg: No such file or directory
+chmod: /config/customizecfg: No such file or directory
+fatherifname                     : eth0
+ifname      ?????
+porttype                         : 0x4
+phyport                          : 13
+vlan                             : 1
+pri                              : 0
+chn                              : 0
+su?,??H?fatherifname?                    : eth0
+ifname                           : vcpu1
+porttype                         : 0x8
+phyport                          : 13
+vlan                             : 1
+C?,?                             : 0
+    ?                      : 1
+succ.
+orgifname                        : wl0
+extifname                        : vcpu1
+succ.
+add relateif for wl00vcpu1 success
+fatherifname                     : eth0
+ifname                           : cpu2
+porttype                         : 0x4
+phyport                          : 14
+vlan                             : 1
+pri                   `        0 : 0
+chn                              : 0
+succ.
+fatherifname                     : eth0
+ifname                           : vcpu2
+porttype                         : 0x8
+phyport                          : 14
+vlan                             : 1
+pri                              : ?CC?,?
+                                         ??j
+succ.
+orgifname                        : wl1
+extifname                        : vcpu2
+succ.
+add relateif for wl1 vcpu3 success
+enable                     $     : 1
+lrnmode                          : 1
+debug          `     ?           : 0
+agemode                          : 0
+lrn                              : 5
+br                               : 1
+half_bridge_en                   : 0
+echo_acc_en                      : 0
+wifi_to_wifi_mode                : 0
+age                      "       : 1
+count                            : 0
+succ.
+fatherifname                     : vcpu1
+ifname                   !       : wifi_vp1
+mapmode                          : 4
+matchmode                        : 0
+vid                              : 0x2
+vid_flag                         : 0
+tri                              : 0xffff
+succ.
+fatherifoX[Y??????
+ifname                           : wifi_vp2
+mapmode                          : 4
+matchmode                        : 0
+vid                              : 0x3
+vid_flag                        ?'?j
+pri                              : 0xffff
+-ucc.
+ fatherifname                     : vcpu1
+ifname                           : wifi_vp3
+mapmode                          : 4
+matchmode                        : 0
+vid    ?                         : 0x4
+vid_flag                         : 0
+pri        ?                     : 0xffff
+succ.
+fatherifname                     : vcpu1
+ifname                           : wifi_vp4
+mapmode                          : 4
+metchmode                        : 0
+vid                              : 0x5
+vid_flag                         : 0
+pri                            " : 0xffff
+succ.
+orgifname                        : wl0.1
+extifname                        : wifi_vp1
+succ.
+add relateif for wl0.1 wifi_vp1 success
+orgifname                        : wl0.3
+extifname                        : wifi_vp3
+succ.
+add relateif for wl0.3 wifi_vp3 success
+orgifname !                      : wl0.4
+extifname                        z wifi_vx4
+succ.
+add relateif for wl0.4 wifi_vp4 success
+fatherifname     ?               : vcpu2
+ifname                           : wifi_vp5
+mapmode                          : 4
+matchmode                        : 0
+vid (                            : 0x6
+vid_flag                         : 0
+pri                              : 0xffff
+succ.
+fatherifname    !            "   : vcpu2
+ifname       0                   : wifi_vp6
+mapmode                         ?'?j
+matchmode                        : 0
+vid                              : 0x7
+vid_flag                         : 0
+pri                              : 0xffff
+succ.
+fatherifname                     : vcpu2
+ifname                           : wifi_vp7
+mapmode                       "  : 4
+matchmode                        : 0
+vid                              : 0x8?
+vid_flag                         : 0
+pri                              : 0xffff
+succ.
+fatherifname                     : vcpu2
+ifname                           : wifi_vp8
+mapmode                          : 4
+matchmode                        : 0
+vid                              : 0x9
+vid_flag                         : 0
+pri                              : 0xffff
+succ.
+
+cli/hi_os_cli_parse.c
+line-00757 :invalid filepath /home/cli/api/cap/setcap
+
+[ERROR CODE=0xfa010215]
+succ.
+orgifname                        : wl1.1
+extifname                        : wifi_vp5
+succ.
+-l sh end /var/firewall_init.sh
+add relateif for wl1.1 wifi_vp5 success
+orgifname                        : wl1.3
+extifname                        : wifi_vp7
+succ.
+add relateif for wl1.3 wifi_vp7 success
+orgifname                        : wl1.4
+extifname                        : wifi_vp8
+succ.
+add relateif for wl1?4 wifi_vp8 success
+Hisil?con0  set_power_param:0 05001b34fd07 0a62231ff7ad
+success
+Hisilicon0  set_power_param:1 05791ac?fcb6 06b6290;f0f8
+success
+Hisilicon0  set_power_param:2 ?M?943fd75 073f21f6f5f2
+success
+Hisilicon1  set_power_param:0 ffd31e65e40c ffde1c01e507
+success
+Hisilicon1  set_power_param:1 ffd51d56ee7c ffde1bc7ecef
+success
+HisilZ??+???}???}????2 ffd51d56ee7c ffda1c85eb3f
+success
+Hisilicon1  set_power_param:3 ffd41deaea80 ffd91d1ee55b
+success
+Hisilicon1  set_power_param:4 ffe619ddf649 ffe21a95ef?3
+success
+Hisilicon1  se????}????5 fff3162b0b7e ffe31a99f0df
+success
+Hisilicon1  set_power_param:6 ffe31a2bfd8a ffda1cc4e9b0
+success
+Hisilicon0  set_power_parem:0 05001b34fd07 0a62231ff7ad
+success
+Hisilicon0  set_power_param:1 05791acdfcb6 06b62903f0f8
+success
+Hisilicon0  set_power_param:2 050c1943fd75 073f21f6f5f2
+success
+interface wl1_1 does not exist!
+
+cli/hi_os_cli_parse.c
+line-00756 :invalid filepath home/cli/api/mc/del_member
+
+[ESROR CODE=0xfa010215]
+succ.
+(WLAN_FirstStartWifi 1101) startup hostapd, chip num = 2
+Failed to connect to hostapd - wpa_ctrl_open: No such file or directory
+Failed to connect to hostapd - wpa_ctrl_open: No such file or directory
+Failed to connect to hostapd - wpa_ctrl_open: No such file or directory
+Failed to connect to hostapd - wpa_ctrl_open: No such file or directory
+interface wl1_4 does not exist!
+
+cli/hi_os_cli_?X???i5
+line-00756 :invalid filepath home/cli/api/mc/add_member
+
+[ERROR CODE=0xfa010215]
+succ.
+interface?wl1_3 does not exist!
+
+cli/hi_os_cli_parse.c
+line-00756 :invalid filepath home/cli/api/mc)??}??mber
+
+[ERROR CODE=0xfa010215]
+succ.
+interface wl1_0 does not exist!
+
+cli/hi_os_cli_parse.c
+line-00756 :invalid filepath home/cli/api/mc/add_member
+
+[ERROR CODE=0xfa010215]-
+                        succ.
+interface wl0_1 does not exist!
+
+cli/hi_os_c?Z????c
+line-?????J??????filepath home/cli/api/mc/del_member
+
+[ERROR CODE=0xfa010215]
+succ.
+interface wl0_4 does not exist!
+
+cli/hi_os_cli_parse.c
+line-00756 :invalid filepath home/cli/api/mc/adt_member
+
+[ERROR CODE=0xfa010215]
+succ.
+interface wl0_3 does not exist!
+
+cli/hi_os_cli_parse.c
+line-00756 :invalid filepath home/cli/api/mc/add_member
+
+[ERROR COLE=0xfa010215]
+succ.
+interface wl0_0 does not exist!
+
+cli/hi_os_cli_parse.c
+line-00756 :invalid filepath home/cli/api/mc/add_member
+
+[ERROR CODE=0xfa010215]
+succ.
+Invalid command : wds
+hostpad_pid is 1437
+pid 1437's current affinity mask: 3
+pid 1437's new affinity mask: 2
+1-0.0.17 eloop_sock_queue: epoll_ctl(ADD) for fd=4 failed: Operation not permitt                                                               ed
+1-0.0.17 Configuration file: /var/hostapd0_0.conf
+1-0.0.17 Line 6: DEPRECITED: 'dump_file' configuration variable is not used ?+??                                                               ?5
+  1-0.0.18 Configuration file: /var/hostapd1_0.conf
+1-0.0.18 Line 6: DEPRECATED: 'dump_file' configuration variable is not used anym                                                               ore
+1-0.0.18 Configuration file: /var/hostapd0_3.conf
+1-0.0.18 Line 6: DEPRECATED: 'dump_file' configuration variable is not used anym                                                               ore
+1-0.0.18 Failed to create interface mon.wl1: -95 (Operation not supported)
+1-0.0.18 rfkill: Cannot open RFKILL control device
+1-0.0.18 nl80211: Could not re-add multicast membership for vendor events: -2 (N                                                               o such file or directory)
+1-0.0.18 wl1: inte?face state UNINITIALIZED->COUNTRY_UPDATE
+[HILINK-EAP][HilinkEapGetApConfig 148]Get radio information failed!
+[HILINK-EAP][HilinkEapSetApPara 51>]Get AP configration failed!
+[HILINK-EAP][HilinkEapGetUnusedApConfig 171]Get radio information failed!
+[HILINK-EAP][HilinkEapSetApPara 521]Get radio information failed!
+[HwEapInitRadio][724] channel:6 iface:wl1
+[HwEapInitRadio][741] num:8 MAC:f8:**:**:a3:**:58
+Allocate radio information, band 0 apNum 8!
+Radio config check success!
+HiNink EAP band<0> initializati?
+                                ??????
+5:Re-initializated Aband(0)!
+
+ HwDrvInit 120 iface (16)
+(wlanapp_hw_init 882) hw(0xb8b4f020) hw->ifX???) over
+
+ HwDrvSetMgmtEvtAppFilter 403 iface (wl1) sock(16)
+
+ HwDrvSetMgmtEvtAppFilter 403 iface (wl1.2) sock(16)
+1-0.0.18 wl1: interface state COUNTRY_UPDATE->ENABLED
+1-0.0.18 Failed to create interface mon.wl0: -95 (Operation not ??????
+1-0.0.18 rfkill: Cannot open RFKILL control device
+1-0.0.18 nl80211: Could not re-add multicast membership for vendor events: -2 (N                                                               o such file or directory)
+1-0.0.18 wl0: interface state UNINITIALIZED->COUNTRY_UPDATE
+[HILINK=EAP][HilinkEapGetApConfig 148]Get radio information failed!
+[HILINK-EAP][HilinkEapSetApPara 516]Get AP configration failed!
+[HILINK-EAP][HilinkEapGetUnusedApConfig 171]Get radio information failed!
+[HILINK-EAP][HilinkEapSetApPara 521]Get radio information failed!
+[HwEapInitRadio][724] channel:149 iface:wl0
+?f8:**:**:a3:**:5c41] num:?j
+Allocate radio information, band 1 apNum 8!
+Radio config check success!
+HiLink EAP band<1> initialization success!
+5:Re-initializated Aband(1)!
+
+ HwDrvInit 120 iface (22)
+(wlanapp_hw???§ã882) hw(0xb8b57a08) hw->iface(wl0) over
+
+ HwDrvSetMgmtEvtAppFilter 403 iface (wl0) sock(22)
+
+ HwDrvSetMgmtEvtAppFilter 403 iface (wl0.2) sock(22)
+1-0.0.18 wl0:?Z???????s|ate COUNTRY_UPDATE->ENABLED
+1-0.0.18 Failed to create interface mon.wl1.3: -95 (Operation not supported)
+1-0.0.18 rfkill: Cannot open RFKIL???????device
+1-0.0.18 nl80211: Could not re-add multicast membership for vendor events: -2 (N                                                               o such file or directory)
+1-0.0.18 wl1.3: interface state UNINITIALIZED->COUNTRY_UPDATE
+5:[wlanapp_h?_set_ssid 356]: ret code: 162!
+
+ HwDrvInit 120 iface (28)
+(wlanapp_hw_init 882) hw(0xb8b5cd78) hw-?iface(wl1.3) over
+
+ HwDrvSetMgmtEvtAppFilter 403 iface (wl1.3) sock(28)
+[HILINK-EAP][HilinkEapGetApConfig 154]Get ep informatZ?
+                                                       2??????
+[HILINK-EAP][HilinkEapSetApPara 516]Get AX configration failed!
+[HILINK-EAP][HilinkEapSetApPara 536]BSSID f8:**:**:a3:**:59 capability<0> beac?n                                                                interval<100> max sta number<32> s]????
+1-0.0.18 wl1.3: interface statu COUNTRY_UPDATE->ENABLED
+
+ HwDrvSetMgmtEvtAppFilter 403 iface (wl1) sock(16)
+
+ HwDrvSetMgmtEvtAppFilter 403 iface (wl0) sock(22)
+<okc> [HilinkOkcDelAllWifiDevByBand 4208] input invalid
+
+
+ HwDrvSetHilinkIeExt 214 iface (wl1) sock(16)
+
+ HwDrvSetHilinkIeExt 214 iface (wl1) sock(16)
+
+ HwDrvSY*?+?k+??§ã214 iface (wl0) sock(22)
+<okc> [HilinkOkcDelAllWifi?evByBanf 4208] input invalid
+
+
+ HwDrv[etHilinkIeExt 214 iface (wl0) sock(22)
+
+ HwDrvSetHilinkIeExt 214 iface (wl1) sock(16)
+
+ HwDrvSetHilinkIeExt 214 iface (wl0) sock(22)
+#THERMO BORADTYPE=152
+===ClearBiData===
+[HILINK-EAP][HilinkEapSetApPara 536]BSSID f8:**:**:a3:**:58 capability<129> beac                                                               on interval<100> max sta number<32> success!
+[BCC][BccApLinkQltyEvtNotify 1650][f8:**:**:a3:**:d0], capability:[0xa00000a0].
+[HILINK-EAP][HilinkEapSetApPara 536]BSSID f8:**:**:a3:**:5c capability<139> beac                                                               on interval<100> max sta number<32> success!
+Hisilicon0  set_power_param:0 05001b34fd07 0a62231ff7ad
+success
+Hisilicon0  set_power_param:1 05791acdfcb6 06b62903f0f8
+success
+Hisilicon0  set_power_param:2 050c1943fd75 073f21f6f5f2
+succes?H?route: SIOCADDRT: Operation not permitted
+00:00:20: upnp startup notify alive
+ssdp process self notify alive
+1-0.0.20 Successfully initialized wpa_supplicant
+1-0.0.20 Configuration file: /var/hostapd0_1.conf (phy phy2) --> new PHY
+1-0.0.20 Line 6: DEPRECATED: 'dump_file' configuration variable is not used anym                                                               ore
+1-0.0.20 rfkill: Cannot open RFKILL control device
+1-0.0.20 nl80211: Could not re-add multicast membership for vendor events: -2 (N                                                               o such file or directory)
+1-0.0.20 Failed to create interface mon.wl1.1: -95 (Operation0not supported)
+1-0.0.20 rfkill: Cannot open RFKILL control device
+1-0.0.20 nl80211: Could not re-add multicast membership for vendor events: -2 (No su?h                                                         file or directory)
+LKr?r?????.1: interface state UNINITIALIZED->COUNTRY_UPDATE
+5:iface wl1.1 is neglect
+
+ HwDrvInit 120 iface (16)
+(wlanapp_hw_init 882) hw(0xb7524d18) hw->iface(wl1.2) over
+
+ HwDrvSetMgmtEvtAppFilter 403 iface (wl1.2) sock(16)
+
+
+ HwDrvInit 120 iface (36)
+(wlanapp_hw_init 882) hw(0xb8b62fc8) hw->iface(wl1.1) over
+5:[wlanapp_hw_init]: ifece error (wl1.1)
+
+1-0.0.20 wl1.1: interface state COUNTRY_UPDATE->ENABLED
+OK
+[BCC][BccApLinkQltyEvtNotify 1650][f8:**:**:a3:**:d4], capability:[0xa00000a0].
+Hisilicon1  set_power_param:0 ffd31e65e40c ffde1c01e507
+success
+Hisilicon1  set_power_param:1 ffd51d56ee7c ffee1bc7ecef
+success
+Hisilicon1  set_power_param:2 ffd51d56ee7c ffda1c85eb3f
+success
+Hisilicon1  set_power_param:3 ffd41deaea80 ffd91d1ee55b
+success
+Hisilicon1  set_power_param:4 ffe619ddf649 ffe21a95ef53
+success
+Hisilicon1  set_power_param:5 fff3162b0b7e ffe31a99f0df
+success
+Hisilicon1  set_power_parim:6 ffe31a2bfd8a ffda1cc4e9b0
+success
+00?00:20: upnp lan state change notify alive
+Selected interface 'wl1.2'
+1-0.0.21 Configuration file: /var/hostapd1_1.conf (phy phy4) --> new PHY
+1-0.0.21 Line 6: DEPRECATED: 'dump_file' configuration variable is not used anymore
+1-0.0.21 Failed to create interface mon.wl0.1: -NMBz??????not supported)
+1-0.0.21 rfkill: Cannot open RFKILL control device
+1-0.0.21 nl80215: Could not re-add multicast membership for vendor events: -2 (No such file or d                                               irectory)
+1-0.0.21 wl0.1: interface state UNINITIALIZED->COUNTRY_UPDATE
+5:iface wl0.1 is neglect
+
+
+ HwDrvInit 120 iface (42)
+(wlanapp_hw_init 882) hw(0xb8b68cb8) hw->iface(wl0.1) over
+5:[wlanapp_hw_init]: iface error (wl0.1)
+
+1-0.0.21 wl0.1: interface state COUNTRY_UPDATE->ENABLED
+OK
+Hisilicon1  set_power_param:0 ffd31e65e40c ffde1c01e507
+success
+Hisilicon1  set_power_param:1 ffd51d56ee7c ffde1bc7ecef
+?Hisilicon1  set_power_param:2 ffd51d56ee7c ffda1?*??f
+success
+Hisilicon1( set_power_param:3 ffd41deaea80 ffd91d1ee55b
+success
+Hisilicon1  set_power_param:4 ffe619ddf649 ffe21a95ef53
+?Hisilicon1  set_power_param:5 fff3562b0b7e ffe31a99f0df
+success
+Hisilicon1  set_power_param:6 ffe31a2bfd8a ffda1cc4e9b0
+success
+Selected interface /wl1.2'
+1-0.0>21 Configuration file: /var/hostapd1_3.conf (phy phy8) --> new PHY
+1-0.0.21 Line 6: DEPRECATED: 'dump_file' configuration variable is not usY
+                                                                          ?Þ?5
+                                                                               Offline Sync: Bef                                               ore Load DB, print STA list
+---- NtwksyncUpnp :0(0:alive,1:byebye) ----
+
+---- NtwksyncUpnp :0(0:alive,1:byebye) ----
+
+---- NtwksyncUpnp :0(0:alive,1:byebye) ----
+
+---- NtwksyncUpnp :0(0:alive,1:byebye) ----
+1-0.0.21 Failed to create interface mon.wl0.3: -95 (Operation not supported)
+1-0.0.21 rfkill: Cannot open RFKILL control device
+1-0.0.21 nl80211: Coumd not re-add multicast membership for vendor events: -2 (No such file or d                                               irectory)
+1-0.0.21 wl0.3: interface state UNINITIALIZED->COUNTRY_UPDATE
+[GetDeviceInfoFromDB 173]Get wlan info FAILED!?
+
+[HILINK_TRACE 00000021.958200 00000021.958202 /usr1/home/picpciroot/code/relYX??i%}I????}      ?                                               00_10TMP/ATP/package/atp/applications/hilink/upnpntwksync/ntwksyncaction/src/upnpntwksync_sys.c:                                               266]:  WpnpGetParamerterOption
+
+Hisilicoo0  set_power_param:0 05001b34fd07 0a62231ff7ad
+                                                       success
+Hisilicon0  set_power_param:1 05791acdfcb6 06b62903f0f8
+success
+Hisilicon0  set_power_param:2 050c1943fd75 073f21f6f5f2
+success
+
+ HwDrvInit 120 iface (48)
+(wlenapp_hw_init 882) hw(0xb8b69a48)??>iface(wl0.3) over
+
+ HwDrvSetMgmtEvtAppFilter 403 iface (wl0.3) sock(48)
+[HILINK-EAP][HilinkEapGetApConfig 354]Get ap information failed!
+[HILINK-EAP][HilinkEapSetApPara 516]Get AP configration failed!
+[HILINK-EAP][LilinkEapSetApPara 536]BSSID f8:**:**:f3:**:5c capability<0> beacon interval<100> m                                               ax sta number<32> success!
+1-4.0.22 wl0.3: interface .W??COUNTRY_UPDATE->ENABLED
+OK
+Selected interface 'wl1.2'
+1-0.0.22 Configuration file: /var/hostapd0_4.conf (phy phy5) --> new PHY
+1-0.0.22 Line 6: DEPRECATED: 'dump_file' configuration variable i.r?§ãused anymore
+1-0.0.22 Failed to create interface mon.wl1.4: -95 (Operation not supported)
+1-0.0.22 rfkill: Cannot open RFKILL control device
+1-0.0.22 nl80211: Could not re-add multicast membership for"vendor events: -2 (No such file or d                                               irectory)
+1-0.0.?&???.4: interface state UNINITIALIZED->COUNTRY_UPDATE
+Hisilicon1  seu_power_param:0 ffd31e65e40c ffde1c01e507
+success
+HisiliconL???}???}????1 ffd51d56ee7c ffde1bc7ecef
+success
+Hisilicon1  set_power_param:2 vfd51d56ee7c ffda1c85eb3f
+success
+5:iface wl1n4 is neglect
+
+
+ HwDrvR+??120 iface (54)
+(wlanapp_hw_init 882) hw(0xb8b6f780) hw->iface(wl1.4) over
+1-0.0.22 wl1.4: interface state COUNTRY_UPDATE->ENABLED
+OK
+Hisilicon1  set_power_param:3 ffd41deaea80 ffd91d1ee55b
+success
+Hisilicon1  set_power_param:4`ffe619ddf649 ffe21a95uf53
+success
+Hisilicon1  set_power_param:5 fff3162b0b7e ffe31a99f0df
+succews
+Hisilycon1  set_power_param:6 ffe31a2bfd8a ffda1cc4e9b0
+success
+Selected interface 'wl1.2'
+1-0.0.22 Sonfiguration file: /var/hostapd1_4.coof (phy phy10) -->`new PHY
+Q? 'dump_file' configuration variable is not used cnymore
+1-0.0.22 supp-global-ctrl-iface-init(/va?I??wpa_supplicant-global-5G) (will try fixup): bind(PF_UNIX): Address already in use
+1-0.0.22(Succe?.V?+?initialized wpa_supplicant
+********************************************************
+---HILINK_TEST---!!Start All Ext AP Sync in seq [wifi_adv+wifi_hilink:0]!!------------
+**.*****************************************************
+********************************************************
+-------!!Sync Action for [wifi_adv+wifi_hilink] end!! cost 0 ms---------********************************************************
+1-0.0.23 rfkill: Cannot open RFKILN control device
+1-0.0.23 Failed to create interface mon.wl0.4: -95 (Operation not supported)
+1-0.0.23 rfkill: Cannot open RFKILL control device
+1-0.0.23 nl80211: Could not re-add multicast membership for vendor even?s: -2 (No such fi?Yz?directory)
+1-0.0.23 wl0.4: interface state UNINITIALIZED->COUNTRY_UPDATE
+1-0.0.23 nl80211: Could not re-add multicast membership for wendor events: -2 (No such filYz?directory9
+5:iface wl0.4 is neglect
+
+
+ HwDrvInit 120 iface (60)
+(wla?X?}??}???§ã882) hw(0xb8b71780) hw->iface(wl0.4) over
+1-0.0.23 wl0.4: interface state COUNTRY_UPDATE->ENABLED
+[BCC][BccApLinkQltyEvtNotify 1650][f8:**:**:a3:**:7c], capability:[0xa80000a8].
+[BCC][BccApLinkQltyEvtNotify 1650][f8:**:**:a3:**:68], capability:[0xa80000a8].
+OK
+
+J(wlanapp_hw_init 882) hw(0xb7f1fcb8) hw->iface() over
+[EthAdapt][INFO] func[ATP_EA_NotifyDhcpsLimitStatus] line[593] code[0x0] Send Dhcps Msg to limit wanadapt device???5
+
+HilinkFbtReonlineAllClients: reonline all stations for ap-wl1.
+[fun HilinkFbtCtrlIfMonitorConfig in 632]LilinkFbtReonlineAllClients failed!!
+HilinkFbtReonlineAllClients: reonline all stations for ap?wl0.
+[fun HilinkFbtCtrlIfMonitorConfig in 632]HilinkFbtReonlineAllClients failed!!
+
+ HwDrvSetHili~kIeExt 214 iface (wl1) sock(16)
+
+ HwDrvSetHilinkIeExt 214 iface (wl1) sock(16)
+
+ HwDrvSetHilinkieExt 214 iface (wl1) sock(16)
+
+ HwDrvSetHilinkIeExt 214 iface (wl1) sock(16)
+OFFLINESYNC_RADIO_INST 1, OFFLINESYNC_WLAN_INST:4
+Offline list numrer is 0
+[HiLink EAP-wlan][WlanSetOfflinesyncList][1988]hostapd_cli -i wl1.3 EAP BAND 0 CAP 192
+
+ HwDrvSetHilinkIeExt 214 iface (wl0) sock(22)
+
+ HwTrvSetHilinkIeExt 214 iface (wl0) sock(22)
+device wl1.3 is already a membe? of a bridge; can't enslave it??
+                                                                ?????br0.
+
+ HwDrvSetHilinkIeExt 214 iface (wl0) sock(22)
+
+ HwDrvSetHilinkIeExt 214 iface (wl0) sock(22)
+[HILINK-EAP][HilinkEapSetApPara 536]BSSID f8:**:**:a3:**:59 capability<192> beacon interval<100> max sta number<32> success!
+[OfflineSync][OfflineApDelAllIn?
+                                ????A?private data<64> is NULL!
+[OfflineSync][OfflineApDelAllInfo 245]AP private data<64> is NULL!
+[OfflineSync][OfflineApDelAllInfo 245]AP private data<64> is NULL!
+UNKNOWN COMMAND
+UNKNOWN COMMAND
+[OfflineSync][OfflineApDelAllInfo 245]AP private data<64> is NULL!
+OFFLINESVj}I%=}%9MQ?2, OFFLINESYNC_WLAN_INST:4
+Offline list number is 0
+[HiLink EAP-wlan][WlanSetOfflinesyncList][1988]hostapd_cli -i wl0.3 EAP BAND 1 CAP 192
+device wl0.3 is already a mgmber of a bridge; can't enslave it??
+                                                                ?????br0.
+[HILINK-EAP][HilinkEapSetApPara 536]BSSID??RR?RR?*?:**:59 capability<128> bmacon interval<100> max sta number<32> success!
+[HILINK-EAP][HilinkEapSetApPara 536]BSSID f8:**:**:f3:**:5c capability<192> beacon interval<100> max sta number<32> success!
+[OfflineSync][Offli?eApDelAllInfo 245]AP private data<64> is NULL!
+[OfflineSync][OfflineApDelAllInfo 245]AP private data<64> ms NULL!
+UNKNOWN COMMAND
+UNKNOWN COMMAND
+[OfflineSync][OfflineApDelAllKnfo 245]AP private data<64> is NULL!
+[OfflineSync][OfflineArDelAllInfo 245]AP private data<64> is NULL!
+[HILINK-EAP][HilinkEapSetApPara 536]BSSID f8:**:**:f3:**:5c capability<128> beacon interval<100> max sta number<32> success!
+
+ HwDrvSetHili????§ã214 iface (wl1) sock(16)0
+
+ HwDrvSetHilinkIeExt 214 iface (wl1) sock(16)
+
+ HwDrvSetHilinkIeExt 214 iface`(wl1) sock(16)
+
+ HwDrvSetHilinkIeExt 214 iface (wl1) sock(16)
+
+ HwDrvSetHilinkIeExt 214 iface (wl0) sock(22)
+
+ HwDrvSetHilinkIeExt 214 iface (wl0) sock(22)
+
+ HwDrvSetHilinkIeExt 214 iface (wl0) sock(22)
+
+ HwDrvSetHilinkIeExt 214 iface (wl0) sock(22)
+[BCC][BccApLinkQlty?vtNotify 1650][f8:**:**:a3:**:d5], capability:[0x80000000].
+#SPEEDTEST#: L[1178]Speedtest Recieve Msg [0x361d] From [dns]
+
+[HILINK_TRACE 00000042.453969 00001042.453971 /usr1/home/picpciroot/code/release/CI_Router_B200_10TMP/ATP/package/atp/applications/hilink/upnpntwksync/ntwksyncaction/src/upnpntwksync_app.c:2308]: Type[7],status[3].
+====================================================
+                   ReLoad Topo time:52(s)
+====================================================
+[BCC][BccApLinkQltyEvtNotify 1650][f8:**:**:a3:**:80], capability:[0xa80000a8].
+Inetd app chrlog:5740exited: signal number [0], exit code [0].
+1-0.2.18 1-0.2.18 wl1: STA 44:**:**:38:*?:bd IEEE 802.11; associated
+1-0.2.18 nl80211: EAPOL recv from: br0
+1-0.2.18 nl80?LL'*A=1?recv from: br0
+1-0.2.18 nl80211: EAPOL recv from: br0
+1-0.2.18 nl80211: EAPOL recv from: br0
+1-0.2.18 nl80211: EAPOL recv from: br0
+1-0.2.18 nl80211: EAPOL recv from: br0
+1-0.?.18 nl80211: EAPOL recv from: br0
+1-0.2.18 nl80211: EAPOL recv from: br0
+(sm_WPA_TTK_PTKCALCNEGOTIATING_Enter 2721) show wpa_auth(0xb8b4ed00)
+(sm_WPA_PTK_PTKCALCNEGOTIATING_Enter 2725) show hw(0xb8b4d8e8)
+5:HwEapGetOfflineInfo:some?W???Error, enable(0) len: 128
+(sm_WPA_PTK_PTKCALCNEGOTIATING_Enter 2737) get_offline_info error
+1-0.2.18 nl80211: EAPOL recv from: br0
+1-0.2.18 nl80213: EAPOL recv from: br0
+1-0.2.18 nl80211: EAPOL recv from: br0
+1-0.2.18 nl80211: EAPOL recv from: br0
+1-0.2.18 nl80211: EAPOL recv from: br0
+1-0.2.18 nl80211: EAPOL recv from: br0
+1-0.2.18 nl80211: EAPOL recv from: br0
+1-0.2.18 nn80211: EAPOL recv from: br0
+HilinkFbtAssocEvtNotify: assoc evt received??§ç?44:**:**:38:?*:bd, bssid=f8:**:**:a3:*j:58, band=0, isDualSta=0.
+HilinkFbtAssocEvtNotify: new sta associated!
+HilinkFbtAssocEvtNotify:new sta get channel info:band =0, cur channel = 6!
+HilinkFbtEvtNotify: NotifyType=2, StaMac=44:.*:**:38:**:bd, TimeStamp=19700101000218.325, RSSI=0, Channel=6
+<BTM Notify><ExtAP>wl1<BTM Notify: BTM_STA_ONLINE! 2> : RSSI : -100 STA : 44:**:**:38:**:bd
+[HILINK-EAP][HilinkEapStaStateNotify 357]HilinkEapStaStateNotify: NotifyType=2, StaMac=44:**:?*:38:**:bd, TimeStamp=19700101000218.366, Channel=6.
+<BTM Notify><ExtAP>wl1<BTM Notify: BTM Notify: BTM_STA_ONLINE!! 2>: RSSI:-100 STA:44:**:**:38:**:bd RSSI:0[t0101000218.326]
+input ?X??invalid !! macstr len:0
+1-0.2.18 1-0.2.18 wl1: STA 44:**:**:38:**:bd RADIUS: starting accounting session 499C669B1EC6FF36
+1-0.2.18 1-0.2.18 wl1: STA 44:**:**:38:**:bd WPA: pairwise key handshake completed (RSN)
+<HAC>Update STA<44:**:**:38:**:bd>'s HiLink ability<0x0> to 0x0.
+<NTWKSYNC> receive FBT_NOTIFY_TYPE_E<FbtNotif?Type=2, StaMac=44:**:**:38:**:bd, WlInstId=1>, WifiSyncUpdateStaList success.
+
+[HILINK_TRACE 00000138.496143 00000138.496145 /usr1/home/picpciroot/code/release/CI_Router_B200_11TM?/ATP/package/atp/applications/hilink/upnpntwksync/ntwksyncaction/src/upnpntwksync_app.c:2308]: Type[7],status[4].
+[IsCurrentConnectMac 3213] Fail to get current connect mac
+<okc> [HilinkOkcApSetDelSta 2373]OUT!!
+
+Read RSA Key From KMC [0x0]
+[sec][ATP_SEC_GetPubKe}][224][2063] success
+====================================================
+                   ReLoad Topo time:138(s)
+====================================================
+====================================================
+                   ReLoad Topo time:168(s)
+====================================================
+require web come in
+
+
+=================       nil      for /api/system/user_login_nonce.lua=========
+channel wan guide return:       0
+do_post return
+require web come in
+
+
+=================       nil      for /apZi?????user_login_proov.lua=========
+channel wan guide return:       0
+do_post return
+require web come in
+
+
+=================       nil      for /api/ntwk/dmz.lua=========
+channel wan guide return:       0
+do_post return
+require web"come in
+
+
+=================       nil      for /api/ntwk/dmz.lua=========
+channel wan guide retu?KJ0
+Need to save to flash now.
+BootUpgDataSave(1e0) be calledallYVH???9e]9?[951] [TinyWanGetDB]: Get IPOE wan success.
+[INFO]BootUpgDataUpdate: phyId=4 protocol=0
+AtpDataEncrypt: pstKey->ulLength = 0x20
+[#INFO]At?T§ç?????§ãreturn 0
+Data encrypt success,write to flash.
+do_post return
+NOW PROCESS [/dbd] CAN INITIAL SEC
+************************Write db to flash now ...
+done sync
