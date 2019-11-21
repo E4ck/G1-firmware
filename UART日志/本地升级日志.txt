@@ -1,0 +1,107 @@
+=================       nil      for /api/system/user_login_proof.lua=========
+channel wan guide return:       0
+do_post return
+100
+**fork check upg**
+[cfgman]|  INFO|| 214|Image type is [0x0], then start action [0]
+NOW PROCESS [**/****tinyupg**] CAN INITIAL SEC
+[tupgmn]|  INFO|| 107|**[****Verify Header]**** **inital as [0x0 | 0x0]
+[tupghd]|  INFO||  85|upgrade out to [**/var/web/upgimage.stat**]
+[tupghd]|  INFO|| 127|Header verify ret [0x0]
+[tupgmn]|  INFO|| 113|[Verify Header] action as [0x0 | 0x0]
+[tupgmn]|  INFO|| 119|[Verify Header] finish as [0x0 | 0x0]
+[tupgmn]| ERROR|| 126|done as [0x0 | 0x0 | 0x0]
+[cfgnml]|  INFO|| 152|tinyupg run ret [0x0 -> 0x0 | 0x0]
+[cfgman]|  INFO|| 246|cfgservice end action as [0x0]
+**web head check ok .**
+need 11588309 bytes for image
+**fork upg**
+[cfgman]|  INFO|| 214|Image type is [0x0], then start action [0]
+NOW PROCESS [**/****tinyupg**] CAN INITIAL SEC
+[tupgmn]|  INFO|| 107|**[****Verify Whole File]** inital as [0x0 | 0x0]
+Use [Pre Set] Mode Key [0x1a0000] Verify Ret [0x0]
+[tupgbn]| ERROR||  39|Verify Image [0x0]
+[tupgmn]|  INFO|| 113|[Verify Whole File] action as [0x0 | 0x0]
+[tupgmn]|  INFO|| 119|[Verify Whole File] finish as [0x0 | 0x0]
+[tupgmn]| ERROR|| 126|done as [0x0 | 0x0 | 0x0]
+[Warning] get this log item: id = [1a080009] need to flush.
+info: not find any surplus log items current(14):limit(3000).
+
+************************Write app data to flash now ...
+#INFO: SmallDbsaveMsgProc be called
+TINYWAN [951] [TinyWanGetDB]: Get IPOE wan success.
+BootUpgDataSave(1e0) be called
+BootUpgDataUpdate: is the same ,ignore
+[cfgbig]|  INFO|| 253|start stop process at [386]
+kill pid name : cms.
+kill pid name : web.
+kill pid name : devidentify.
+kill pid name : pluclient.
+kill pid name : behavior.
+kill pid name : upnp.
+kill pid name : dns.
+Inetd app upnp:2369 exited: signal number [9], exit code [0].
+Inetd app dns:892 exited: signal number [9], exit code [0].
+kill pid name : syslog.
+kill pid name : chrlog.
+kill pid name : dhcps.
+Inetd app dhcps:838 exited: signal number [9], exit code [0].
+kill pid name : ipcheck.
+kill pid name : ssdpd.
+kill pid name : ntwksync.
+kill pid name : bdngagent.
+kill pid name : sta.
+Inetd app ntwksync:1037 exited: signal number [9], exit code [0].
+Inetd app sta:568 exited: signal number [9], exit code [0].
+kill pid name : wlan.
+Inetd app ipcheck:839 exited: signal number [9], exit code [0].
+kill pid name : hibridge.
+Inetd app devmngr:1023 exited: signal number [9], exit code [0].
+Inetd app devmngr:1023 ekill pid name : iftttd.
+Inetd app smartsrvc:1024 exited: signal number [9], exit code [0].
+kill pid name : smartsrvc.
+kill pid name : hiclient.
+kill pid name : atpmonitor.
+kill pid name : console.
+Inetd app atpmonitor:572 exited: signal number [9], exit code [0].
+Inetd app syslog:567 exited: signal number [9], exit code [0].
+Inetd app hiclient:1022 exited: signal number [9], exit code [0].
+Inetd app hibridge:1025 exited: signal number [9], exit code [0].
+Killed
+Done
+# [cfgbig]|  INFO|| 257|done stop process at [386]
+#INFO:ATP_SmallSysChrootCheck:7564
+#ERR:ATP_SmallSysChrootCheck:7572 open /var/fakeroot_upg/dev/mtd0 fail 2
+ERR:open_mtd_dev:6443 open file /dev/mtd0 fail 13, will try read only
+#info tiny_fs_size = 0x320000
+rd_size info [3276800: 832]
+##INFO:insmod /lib/kernel/drivers/block/brd.ko rd_nr=2 rd_size=3200 success
+##INFO:mknod /dev/upgramblk1 b 1 1 success
+.....
+rootdir=/
+table='/etc/devicetable'
+makedevs: invalid line 2:
+makedevs: invalid line 3:
+makedevs: invalid line 4:
+makedevs: invalid line 5:
+.......
+Done
+##INFO:/bin/sh /tmp/chroot_sh success
+##INFO:echo chroot /var/fakeroot_upg ls > /tmp/chroot_sh success
+##INFO:chmod +x /tmp/chroot_sh success
+var     tmp     sbin    patch   lib     home    dev     config  atp
+usr     sys     proc    mnt     html    etc     data    bin
+##INFO:/bin/sh /tmp/chroot_sh success
+#INFO:ATP_SmallSysChrootCheck:7564
+#INFO: /var/fakeroot_upg remount success
+##INFO:echo chroot /var/fakeroot_upg tinyupg -B -f /var/upg.bin -c web > /tmp/chroot_sh success
+##INFO:chmod +x /tmp/chroot_sh success
+NOW PROCESS [**/bin/tinyupg**] CAN INITIAL SEC
+[tupgmn]|  INFO|| 107|**[****Upgrade Whole File]** inital as [0x0 | 0x0]
+[tupgcy]|  INFO|| 189|Consider it as plaintext image
+Use [Pre Set] Mode Key [0x1a0000] Verify Ret [0x0]
+[tupgbn]| ERROR||  39|Verify Image [0x0]
+upgrade big system
+.......................................................................................................upgrade big system
+..........................................................................[tupgmn]|  INFO|| 113|[Upgrade Whole File] action as [0x0 | 0x0]
+[tupgfl]| ERROR|| 234|Will [force] reboot

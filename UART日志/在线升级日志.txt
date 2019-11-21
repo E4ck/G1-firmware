@@ -1,0 +1,127 @@
+=================       update   for /api/system/onlineupg.lua=========
+channel wan guide return:       0
+[hota]: ERROR| cms_dbm| 567|  88|Check Paras Error on Line [0]
+Need to save to flash now.
+do_post return
+[Before function=ATP_APP_SetTaskBusyEx,line=48,ulTaskCnt =0]
+[After function=ATP_APP_SetTaskBusyEx,line=69,ulTaskCnt =1u]
+The IP is [58.51.131.28]
+[hota]: ERROR| cmd_dwl| 894| 177|[HTTP] mode wget use [1] SEC, Ret [0], Downloaded [1048576 / 1048576 Bytes]
+NOW PROCESS [/tinyupg] CAN INITIAL SEC
+NOW PROCESS [/dbd] CAN INITIAL SEC
+************************Write db to flash now ...
+[tupgmn]|  INFO|| 105|[Verify Header] inital as [0x0 | 0x0]
+[tupghd]|  INFO|| 130|Header verify ret [0x0]
+[tupgmn]|  INFO|| 111|[Verify Header] action as [0x0 | 0x0]
+[tupgmn]|  INFO|| 117|[Verify Header] finish as [0x0 | 0x0]
+[tupgmn]|  INFO|| 124|done as [0x0 | 0x0 | 0x0]
+M[   cfgmain] L[ 530]Run Tinyupg Ret [0]
+[hota]: ERROR| agt_fim| 893| 254|Hotacmd Download Done with Status [0/0/154/1]
+[hota]: ERROR| agt_fim| 893| 283|Download New Version [0x0]/[0x0]
+done sync
+The IP is [58.51.131.28]
+[hota]: ERROR| cmd_dwl| 914| 177|[HTTP] mode wget use [2] SEC, Ret [0], Downloaded [11212736 / 11212736 Bytes]
+[hota]: ERROR| agt_fim| 893| 254|Hotacmd Download Done with Status [0/0/156/0]
+[hota]: ERROR| agt_fim| 893| 283|Download New Version [0x0]/[0x0]
+[Before function=ATP_APP_UnsetTaskBusy,line=84,ulTaskCnt =1]
+[After function=ATP_APP_UnsetTaskBusy,line=106,ulTaskCnt =0]
+[hota]: ERROR| agt_man| 917|  96|Record Hota Upgrade Time [2019-11-12 14:35:50]
+[Before function=ATP_APP_SetTaskBusyEx,line=48,ulTaskCnt =0]
+[After function=ATP_APP_SetTaskBusyEx,line=69,ulTaskCnt =1u]
+[hota]: ERROR| cmd_upg| 918| 134|Upgrade Firmware From [Hi5651h-1151-ToC-9.0.3.11]/[Jul  3 2019 21:00:43]
+NOW PROCESS [/dbd] CAN INITIAL SEC
+************************Write db to flash now ...
+done sync
+NOW PROCESS [/tinyupg] CAN INITIAL SEC
+[tupgmn]|  INFO|| 105|[Verify Whole File] inital as [0x0 | 0x0]
+Use [Pre Set] Mode Key [0x1a0000] Verify Ret [0x0]
+[tupgbn]|  INFO||  37|Verify Image [0x0]
+[tupgmn]|  INFO|| 111|[Verify Whole File] action as [0x0 | 0x0]
+[tupgmn]|  INFO|| 117|[Verify Whole File] finish as [0x0 | 0x0]
+[tupgmn]|  INFO|| 124|done as [0x0 | 0x0 | 0x0]
+[Warning] get this log item: id = [1a080009] need to flush.
+info: not find any surplus log items current(38):limit(3000).
+
+************************Write app data to flash now ...
+M[    cfgbig] L[ 318]Start Kill Process at [11117]
+kill pid name : cms.
+Inetd app cms:567 exited: signal number [0], exit code [9].
+kill pid name : web.
+kill pid name : devidentify.
+kill pid name : behavior.
+kill pid name : upnp.
+kill pid name : dns.
+kill pid name : syslog.
+kill pid name : chrlog.
+Inetd app syslog:568 exited: signal number [0], exit code [9].
+Inetd app upnp:4016 exited: signal number [0], exit code [9].
+kill pid name : dhcps.
+kill pid name : ipcheck.
+kill pid name : ssdpd.
+Inetd app ssdpd:4028 exited: signal number [0], exit code [9].
+kill pid name : ntwksync.
+kill pid name : bdngagent.
+kill pid name : sta.
+kill pid name : wlan.
+kill pid name : hibridge.
+kill pid name : devmngr.
+kill pid name : iftttd.
+kill pid name : smartsrvc.
+Inetd app devmngr:1028 exited: signal number [0], exit code [9].
+Inetd app smartsrvc:1029 exited: signal number [0], exit code [9].
+kill pid name : hiclient.
+Inetd app ntwksync:1118 exited: signal number [0], exit code [9].
+kill pid name : atpmonitor.
+kill pid name : console.
+Inetd app dns:885 exited: signal number [0], exit code [9].
+Inetd app dhcps:844 exited: signal number [0], exit code [9].
+Inetd app wlan:570 exited: signal number [0], exit code [9].
+Inetd app hibridge:1066 exited: signal number [0], exit code [9].
+Inetd app atpmonitor:571 exited: signal number [0], exit code [9].
+Inetd app hiclient:1022 exited: signal number [0], exit code [9].
+Inetd app sta:569 exited: signal number [0], exit code [9].
+Inetd app ipcheck:845 exited: signal number [0], exit code [9].
+Killed
+Done
+# M[    cfgbig] L[ 326]Kill Done at [11118]
+#INFO:ATP_SmallSysChrootCheck:7283
+#ERR:ATP_SmallSysChrootCheck:7291 open /var/fakeroot_upg/dev/mtd0 fail 2
+ERR:open_mtd_dev:6169 open file /dev/mtd0 fail 13, will try read only
+#info tiny_fs_size = 0x320000
+rd_size info [3276800: 832]
+##INFO:insmod /lib/kernel/drivers/block/brd.ko rd_nr=2 rd_size=3200 success
+##INFO:mknod /dev/upgramblk1 b 1 1 success
+##INFO:mknod /dev/upgramblk0 b 1 0 success
+##INFO:cat /dev/mtd0 > /dev/upgramblk0 success
+##INFO:mount -t squashfs /dev/upgramblk0 /var/fakeroot_upg success
+##INFO:cat /dev/mtd23 > /dev/upgramblk1 success
+##INFO:mkdir /var/upgpatch_mnt success
+##INFO:mount -t squashfs /dev/upgramblk1 /var/upgpatch_mnt success
+#mount patch system return :976
+#do the patch system overlay
+##INFO:test -d /var/upgpatch_mnt/etc && mount -t overlayfs -o lowerdir=/var/fakeroot_upg/etc,upperdir=/var/upgpatch_mnt/etc overlayfs /var/fakeroot_upg/etc success
+##INFO:test -d /var/upgpatch_mnt/bin && mount -t overlayfs -o lowerdir=/var/fakeroot_upg/bin,upperdir=/var/upgpatch_mnt/bin overlayfs /var/fakeroot_upg/bin success
+##INFO:test -d /var/upgpatch_mnt/lib && mount -t overlayfs -o lowerdir=/var/fakeroot_upg/lib,upperdir=/var/upgpatch_mnt/lib overlayfs /var/fakeroot_upg/lib success
+##INFO:test -d /var/upgpatch_mnt/html && mount -t overlayfs -o lowerdir=/var/fakeroot_upg/html,upperdir=/var/upgpatch_mnt/html overlayfs /var/fakeroot_upg/html success
+##INFO:echo chroot /var/fakeroot_upg /bin/sh /etc/profile-upg > /tmp/chroot_sh success
+##INFO:chmod +x /tmp/chroot_sh success
+rootdir=/
+table='/etc/devicetable'
+Done
+##INFO:/bin/sh /tmp/chroot_sh success
+##INFO:echo chroot /var/fakeroot_upg ls > /tmp/chroot_sh success
+##INFO:chmod +x /tmp/chroot_sh success
+var     tmp     sbin    patch   lib     home    dev     config  atp
+usr     sys     proc    mnt     html    etc     data    bin
+##INFO:/bin/sh /tmp/chroot_sh success
+#INFO:ATP_SmallSysChrootCheck:7283
+#INFO: /var/fakeroot_upg remount success
+##INFO:echo chroot /var/fakeroot_upg tinyupg -B -f /var/upg.bin -c hota > /tmp/chroot_sh success
+##INFO:chmod +x /tmp/chroot_sh success
+NOW PROCESS [/bin/tinyupg] CAN INITIAL SEC
+[tupgmn]|  INFO|| 105|[Upgrade Whole File] inital as [0x0 | 0x0]
+[tupgcy]|  INFO|| 193|Consider it as plaintext image
+Use [Pre Set] Mode Key [0x1a0000] Verify Ret [0x0]
+[tupgbn]|  INFO||  37|Verify Image [0x0]
+upgrade big system
+...........................................................................
